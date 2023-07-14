@@ -1,0 +1,36 @@
+.bg{
+    background-color: aquamarine ;
+    width: 500px;
+    height: 550px;
+    padding-top:  30px;
+    margin: 0 auto;
+}
+table{
+    border: 1px solid black ;
+    border-collapse: collapse;
+    background-color: beige;
+    font-size: 30px;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    margin:  auto;
+
+}
+td{
+    border: 1px solid black;
+    
+}
+.col{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.color {
+    background-color: rgb(212, 117, 49);
+}
+td:hover {
+    background-color: black;
+    color: rgb(217, 198, 235);
+    transition: 0.4s ease-in;
+    transform: scale(1.2);
+}
