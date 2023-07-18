@@ -1,0 +1,20 @@
+table{
+    background-color: rgb(239, 168, 228) ;
+}
+
+
+form{
+    background-color: rgb(234, 237, 200);
+}
+tr{
+    background-color: rgb(188, 237, 237);
+}
+td{
+    
+    background-color: rgb(205, 175, 233);
+}
+#button{
+    color: red;
+    background-color: red;
+    
+}
