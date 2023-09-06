@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg,black,gray);
+    font-family: "Gilroy",sans-serif
+}
+body{
+    position: relative;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    font-weight: 600;
+}
+.hero .clock {
+    color: aqua
+}
+.hero .date {
+    font-size: 25px;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+.cont {
+    width: 350px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(133, 100, 165);
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.8),0px 10px 20px rgba(0, 0, 0,0.9);
+}
+
+
