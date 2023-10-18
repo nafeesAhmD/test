@@ -11,11 +11,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #000;
+    padding: 0 10px;
 }
 .container {
     width: 400px;
     min-height: min-content;
-    background-color: #fff;
+    background: linear-gradient(135deg, #00feba, #5b548a);
     padding: 20px;
     border-radius: 12px;
 }
@@ -27,7 +28,7 @@ body {
     align-items: center;
 }
 .searchBox input {
-    width: 85%;
+    width: 80%;
     font-size: 20px;
     color: #fff;
     background-color: #e6f5fb;
@@ -62,7 +63,7 @@ body {
     
 }
 .weather-box .temp sup{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     position: absolute;
 }
@@ -70,7 +71,14 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-.weather-details {
-   /* width: 100%; */
-   display: flex;
+
+.weather-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+
+}
+.weather-details .text i {
+    font-size: 2rem;
 }
