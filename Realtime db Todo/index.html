@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App Firestore</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css" integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <p id="showUser"></p>
+        <div class="main">
+            <h1>To-Do List</h1>
+            <img src="./icon.png" alt="">
+        </div>
+        <div class="input-box">
+            <input type="text" name="" id="inp" placeholder="Enter Your Task">
+            <button id="btn">ADD</button>
+        </div>
+        <button onclick="delAll()" id="delAll">DeleteAll</button>
+        <ul id="getul" class="ul">
+            
+        </ul>
+               
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

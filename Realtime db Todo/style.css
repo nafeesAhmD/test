@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.container{
+    width: 25rem;
+    background-color: burlywood;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+
+}
+.container #showUser{
+    position: absolute;
+    top: 5%;
+    right: 30px;
+    color: #4285f4;
+}
+.container #delAll{
+    padding: .5rem;
+    width: 20rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #b95a5a;
+    margin: .1rem 1.2rem;
+    cursor: pointer;
+
+}
+.main {
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.main img {
+    width: 2.5rem;
+}
+.input-box {
+    width: 360px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    margin-top: 0.8rem;    
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.input-box input{
+    border: 0;
+    padding: .9rem .5rem;
+    width: 16rem;
+    outline: none;
+    font-size: 1rem;
+}
+.input-box button {
+    border: 0;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.ul li{
+    width: 340;
+    border: 1px solid gray;
+    padding: 0.5rem 0.8rem;
+    background-color: white;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.ul li span {
+    font-size: 2rem;
+}
+.ul li button{
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+   
+}
+.ul li #edit{
+    position: absolute;
+    left: 79%;
+}
+
+
+@media (max-width: 320px) {
+    .container{
+        width: 20rem;
+        
+        
+        
+    
+    }
+   
+    
+}
