@@ -306,6 +306,50 @@
 //     console.log("Name: "+ name + "Score: " + score + "Percentage: " +percentage.toFixed(2) +"%")
 // }
 
+// Ques 09
+// a
+// var color = ["red","green","blue"];
+// var addColor = prompt("Enter color")
+// color.unshift(addColor);
+// console.log(color)
+
+// b
+// var color = ["red","green","blue"];
+// var addColor = prompt("Enter color")
+// color.push(addColor);
+// console.log(color)
+
+// c
+// var color = ["red","green","blue"];
+// var addColor = prompt("Enter color")
+// var addColor1 = prompt("Enter color2")
+// color.unshift(addColor, addColor1);
+// console.log(color)
+
+// d
+// var color = ["red","green","blue"];
+// color.shift();
+// console.log(color)
+
+// e
+// var color = ["red","green","blue"];
+// color.pop();
+// console.log(color)
+
+// f
+// var color = ["red","green","blue"];
+// var addColor = prompt("Enter color")
+// var addIndx = prompt("Enter Index number")
+// color.splice(addIndx, 0, addColor)
+// console.log(color);
+
+// g
+
+// Ques 10
+// var score = [75,80,52,55,62]
+// score.sort()
+// console.log(score)
+
 // Ques 11
 // var cities = ["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Faisalabad"];
 // var selectedCities = cities.slice(0, 3); 
@@ -315,6 +359,18 @@
 // var arr = ["This", "is", "my", "cat"];
 // var joinArray = arr.join(" ");
 // console.log(joinArray);
+
+// Ques 13
+// var fifo = ["keyboard","mouse","monitor","printer"];
+// for(var i = 0; i < fifo.length; i++){
+//     console.log(fifo[i])
+// }
+
+// Ques 14
+// var lifo = ["keyboard","mouse","monitor","printer"];
+// for(let i = lifo.length - 1; i >= 0; i--){
+//     console.log(lifo[i])
+// }
 
 
 // <--Chapter 17 to 20 -->
